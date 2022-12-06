@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient1"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".admin.EditQuestionsActivity">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:text="@string/questions_list"
+            android:textColor="@color/white"/>
+
+        <ListView
+            android:id="@+id/rvQuestionsList"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1" />
+
+        <EditText
+            android:id="@+id/et_chapter_challenge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="@string/chapter_challenge_question"
+            android:autofillHints=""
+            android:layout_margin="5dp"
+            android:textSize="14sp"
+            android:textColor="@color/white"/>
+
+        <EditText
+            android:id="@+id/etLectureAdd"
+            android:inputType="textMultiLine"
+            android:lines="8"
+            android:minLines="6"
+            android:gravity="top|start"
+            android:maxLines="10"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:scrollbars="vertical"
+            android:hint="@string/add_question_here"
+            android:autofillHints=""
+            android:textColor="@color/white"/>
+
+        <EditText
+            android:id="@+id/et_option_one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="@string/option_one"
+            android:autofillHints=""
+            android:textSize="14sp"
+            android:textColor="@color/white"/>
+
+        <EditText
+            android:id="@+id/et_option_two"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="@string/option_two"
+            android:autofillHints=""
+            android:textSize="14sp"
+            android:textColor="@color/white"/>
+
+        <EditText
+            android:id="@+id/et_option_three"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="@string/option_three"
+            android:autofillHints=""
+            android:textSize="14sp"
+            android:textColor="@color/white"/>
+
+        <EditText
+            android:id="@+id/et_option_four"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="@string/option_four"
+            android:autofillHints=""
+            android:textSize="14sp"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/choose_the_correct_answer"
+            android:textColor="@color/white"/>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <RadioButton
+                android:id="@+id/rdbOption1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textSize="14sp"
+                android:text="@string/rdb_option_one"
+                android:textColor="@color/white"/>
+
+            <RadioButton
+                android:id="@+id/rdbOption2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textSize="14sp"
+                android:text="@string/rdb_option_two"
+                android:textColor="@color/white"/>
+
+            <RadioButton
+                android:id="@+id/rdbOption3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textSize="14sp"
+                android:text="@string/rdb_option_three"
+                android:textColor="@color/white"/>
+
+            <RadioButton
+                android:id="@+id/rdbOption4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textSize="14sp"
+                android:text="@string/rdb_option_four"
+                android:textColor="@color/white"/>
+
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/btnUpdateQuestionToDB"
+                android:layout_width="170dp"
+                android:layout_height="60dp"
+                android:text="@string/update_question"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"/>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+
+            <Button
+                android:id="@+id/btnDeleteQuestionToDB"
+                android:layout_width="170dp"
+                android:layout_height="60dp"
+                android:text="@string/delete_question"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"/>
+
+        </LinearLayout>
+
+
+
+</LinearLayout>

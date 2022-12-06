@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.adrianmarino.e_salansan">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".chapter1lectures.Chapter1Lecture1AActivity"></activity>
+        <activity android:name=".InsertionSortSimulationActivity" />
+        <activity android:name=".BinarySearchSimulationActivity" />
+        <activity android:name=".LinearSearchSimulationActivity" />
+        <activity android:name=".QueueAlgorithmSimulationActivity" />
+        <activity android:name=".StackAlgorithmSimulationActivity" />
+        <activity android:name=".SelectionSortSimulationActivity" />
+        <activity android:name=".chapter6lectures.Chapter6Lecture2Activity" />
+        <activity android:name=".chapter6lectures.Chapter6Lecture1Activity" />
+        <activity android:name=".chapter5lectures.Chapter5Lecture2Activity" />
+        <activity android:name=".chapter5lectures.Chapter5Lecture1Activity" />
+        <activity android:name=".chapter4lectures.Chapter4Lecture2Activity" />
+        <activity android:name=".chapter4lectures.Chapter4Lecture1Activity" />
+        <activity android:name=".chapter3lectures.Chapter3Lecture2Activity" />
+        <activity android:name=".chapter3lectures.Chapter3Lecture1Activity" />
+        <activity android:name=".chapter2lectures.Chapter2Lecture4Activity" />
+        <activity android:name=".chapter2lectures.Chapter2Lecture3Activity" />
+        <activity android:name=".chapter2lectures.Chapter2Lecture2Activity" />
+        <activity android:name=".chapter2lectures.Chapter2Lecture1Activity" />
+        <activity android:name=".chapter1lectures.Chapter1Lecture4Activity" />
+        <activity android:name=".chapter1lectures.Chapter1Lecture3Activity" />
+        <activity android:name=".chapter1lectures.Chapter1Lecture2Activity" />
+        <activity android:name=".admin.EditQuestionsActivity" />
+        <activity android:name=".admin.EditLectureActivity" />
+        <activity android:name=".admin.AddQuestionsActivity" />
+        <activity android:name=".admin.AddLectureActivity" />
+        <activity android:name=".AdminActivity" />
+        <activity android:name=".BubbleSortSimulationActivity" />
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".ResultActivityChapter1Challenge" />
+        <activity android:name=".challenges.Chapter1Challenge" />
+        <activity android:name=".FirstInstanceActivity" />
+        <activity android:name=".SetUpPasswordActivity" />
+        <activity android:name=".SetUpAccountActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".ForgotPassword" />
+        <activity android:name=".SignUpActivity" />
+        <activity android:name=".chapters.ChapterViActivity" />
+        <activity android:name=".chapters.ChapterVActivity" />
+        <activity android:name=".chapters.ChapterIvActivity" />
+        <activity android:name=".chapters.ChapterIiiActivity" />
+        <activity android:name=".chapters.ChapterIiActivity" />
+        <activity android:name=".chapters.ChapterIActivity" />
+        <activity android:name=".MainMenu" />
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

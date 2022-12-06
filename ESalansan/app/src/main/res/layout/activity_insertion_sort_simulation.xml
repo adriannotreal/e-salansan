@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="16dp"
+    tools:context=".InsertionSortSimulationActivity">
+
+    <ImageView
+        android:id="@+id/insertion_sim_banner"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/insertionsimbanner"
+        android:layout_marginBottom="10dp"
+        android:contentDescription="@string/image_content_description"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/default_option_border_bg"
+        android:layout_margin="8dp"
+        android:padding="8dp"
+        android:gravity="center">
+
+
+        <EditText
+            android:id="@+id/et_sim_first_input_insertion"
+            android:layout_width="32dp"
+            android:layout_height="match_parent"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:background="@drawable/sim_input_border_bg"
+            android:inputType="numberSigned"
+            android:maxLength="2"
+            android:layout_margin="5dp"
+            android:ems="10"
+            android:importantForAutofill="no"
+            tools:ignore="LabelFor"/>
+
+        <EditText
+            android:id="@+id/et_sim_second_input_insertion"
+            android:layout_width="32dp"
+            android:layout_height="match_parent"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:background="@drawable/sim_input_border_bg"
+            android:inputType="numberSigned"
+            android:maxLength="2"
+            android:layout_margin="5dp"
+            android:ems="10"
+            android:importantForAutofill="no"
+            tools:ignore="LabelFor"/>
+
+        <EditText
+            android:id="@+id/et_sim_third_input_insertion"
+            android:layout_width="32dp"
+            android:layout_height="match_parent"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:background="@drawable/sim_input_border_bg"
+            android:inputType="numberSigned"
+            android:maxLength="2"
+            android:layout_margin="5dp"
+            android:ems="10"
+            android:importantForAutofill="no"
+            tools:ignore="LabelFor"/>
+
+        <EditText
+            android:id="@+id/et_sim_fourth_input_insertion"
+            android:layout_width="32dp"
+            android:layout_height="match_parent"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:background="@drawable/sim_input_border_bg"
+            android:inputType="numberSigned"
+            android:maxLength="2"
+            android:layout_margin="5dp"
+            android:ems="10"
+            android:importantForAutofill="no"
+            tools:ignore="LabelFor"/>
+
+        <EditText
+            android:id="@+id/et_sim_fifth_input_insertion"
+            android:layout_width="32dp"
+            android:layout_height="match_parent"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:background="@drawable/sim_input_border_bg"
+            android:inputType="numberSigned"
+            android:maxLength="2"
+            android:layout_margin="5dp"
+            android:ems="10"
+            android:importantForAutofill="no"
+            tools:ignore="LabelFor"/>
+
+        <EditText
+            android:id="@+id/et_sim_sixth_input_insertion"
+            android:layout_width="32dp"
+            android:layout_height="match_parent"
+            android:textSize="20sp"
+            android:background="@drawable/sim_input_border_bg"
+            android:gravity="center"
+            android:inputType="numberSigned"
+            android:maxLength="2"
+            android:layout_margin="5dp"
+            android:ems="10"
+            android:importantForAutofill="no"
+            tools:ignore="LabelFor"/>
+
+
+        <EditText
+            android:id="@+id/et_sim_seventh_input_insertion"
+            android:layout_width="32dp"
+            android:layout_height="match_parent"
+            android:textSize="20sp"
+            android:background="@drawable/sim_input_border_bg"
+            android:gravity="center"
+            android:inputType="numberSigned"
+            android:maxLength="2"
+            android:layout_margin="5dp"
+            android:ems="10"
+            android:importantForAutofill="no"
+            tools:ignore="LabelFor"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="-20dp"
+        android:gravity="center">
+
+
+        <ImageView
+            android:id="@+id/et_sim_first_data_image_insertion"
+            android:layout_width="32dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/check"
+            android:gravity="center"
+            android:contentDescription="@string/image_content_description"
+            android:layout_margin="5dp"/>
+
+        <ImageView
+            android:id="@+id/et_sim_second_data_image_insertion"
+            android:layout_width="32dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/check"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:contentDescription="@string/image_content_description"/>
+
+        <ImageView
+            android:id="@+id/et_sim_third_data_image_insertion"
+            android:layout_width="32dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/check"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:contentDescription="@string/image_content_description"/>
+
+        <ImageView
+            android:id="@+id/et_sim_fourth_data_image_insertion"
+            android:layout_width="32dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/check"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:contentDescription="@string/image_content_description"/>
+
+        <ImageView
+            android:id="@+id/et_sim_fifth_data_image_insertion"
+            android:layout_width="32dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/check"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:contentDescription="@string/image_content_description"/>
+
+        <ImageView
+            android:id="@+id/et_sim_sixth_data_image_insertion"
+            android:layout_width="32dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/check"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:contentDescription="@string/image_content_description"/>
+
+
+        <ImageView
+            android:id="@+id/et_sim_seventh_data_image_insertion"
+            android:layout_width="32dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/check"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:contentDescription="@string/image_content_description"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnGenerateArrayInsertion"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/colorPrimary"
+        android:text="@string/generate_random_numbers_string"
+        android:background="@color/white"/>
+
+    <Button
+        android:id="@+id/btnSimulateInsertion"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="50dp"
+        android:textColor="@color/colorPrimary"
+        android:text="@string/simulate_btn_txt"
+        android:background="@color/white"/>
+
+    <Button
+        android:id="@+id/btnCheckInsertionSort"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        tools:text="Check"
+        android:background="@color/white"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"/>
+
+</LinearLayout>

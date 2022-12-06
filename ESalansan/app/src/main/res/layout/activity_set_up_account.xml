@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="25dp"
+    android:gravity="center_horizontal"
+    android:background="@drawable/gradient1"
+    tools:context=".SetUpAccountActivity">
+
+    <TextView
+        android:id="@+id/lblAccountName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:paddingTop="180dp"
+        android:paddingBottom="50dp"
+        android:textStyle="bold"
+        android:text="@string/lblName"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/etUsernameOL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:ems="10"
+        android:hint="@string/txtName"
+        android:inputType="textPersonName"
+        android:autofillHints="" />
+
+    <Button
+        android:id="@+id/btnNextToPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        android:text="@string/btnNextLabel"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+</LinearLayout>

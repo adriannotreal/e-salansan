@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#9013FE</color>
+    <color name="colorPrimaryDark">#6A1B9A</color>
+    <color name="colorAccent">#9013FE</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="ic_launcher_background">#FFFFFF</color>
+    <color name="gradient1start">#aab2fd</color>
+    <color name="gradient1end">#1b56cc</color>
+
+    <color name="quizcolor">#363A43</color>
+    <color name="quizprogressbarcolor">#7A8089</color>
+
+</resources>

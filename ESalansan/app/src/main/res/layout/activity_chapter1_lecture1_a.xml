@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".chapter1lectures.Chapter1Lecture1AActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/Chapter1Lesson1Content1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:justificationMode="inter_word"
+            android:fontFamily="@font/cardo"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            tools:text="Content1"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/arraymemoryloc"
+            android:contentDescription="@string/image_content_description"/>
+
+        <TextView
+            android:id="@+id/LabelC1L1I1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-20dp"
+            android:textSize="8sp"
+            android:layout_gravity="center"/>
+
+
+        <TextView
+            android:id="@+id/Chapter1Lesson1Content1B"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:justificationMode="inter_word"
+            android:fontFamily="@font/cardo"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            tools:text="Content1B"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-70dp"
+            android:src="@drawable/treedatastruc"
+            android:contentDescription="@string/image_content_description"/>
+
+        <TextView
+            android:id="@+id/LabelC1L1I2"
+            android:layout_marginTop="-85dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="8sp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/Chapter1Lesson1Content2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:justificationMode="inter_word"
+            android:fontFamily="@font/cardo"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            tools:text="Content2"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-10dp"
+            android:src="@drawable/interfaceimplementation"
+            android:contentDescription="@string/image_content_description"/>
+
+        <TextView
+            android:id="@+id/Chapter1Lesson1Content3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:justificationMode="inter_word"
+            android:fontFamily="@font/cardo"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            tools:text="Content3"/>
+
+    </LinearLayout>
+
+</ScrollView>

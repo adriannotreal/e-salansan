@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="16dp"
+    tools:context=".QueueAlgorithmSimulationActivity">
+
+    <ImageView
+        android:id="@+id/queuesimbanner"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/queuesimbanner"
+        android:layout_marginBottom="25dp"
+        android:contentDescription="@string/image_content_description"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/default_option_border_bg"
+        android:layout_margin="25dp"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        android:gravity="center">
+
+
+        <EditText
+            android:id="@+id/et_sim_first_input_queue"
+            android:layout_width="35dp"
+            android:layout_height="45dp"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:background="@drawable/sim_input_border_bg"
+            android:inputType="numberSigned"
+            android:maxLength="2"
+            android:layout_margin="1dp"
+            android:ems="10"
+            android:importantForAutofill="no"
+            tools:ignore="LabelFor"/>
+
+        <EditText
+            android:id="@+id/et_sim_second_input_queue"
+            android:layout_width="35dp"
+            android:layout_height="45dp"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:background="@drawable/sim_input_border_bg"
+            android:inputType="numberSigned"
+            android:maxLength="2"
+            android:layout_margin="1dp"
+            android:ems="10"
+            android:importantForAutofill="no"
+            tools:ignore="LabelFor"/>
+
+        <EditText
+            android:id="@+id/et_sim_third_input_queue"
+            android:layout_width="35dp"
+            android:layout_height="45dp"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:background="@drawable/sim_input_border_bg"
+            android:inputType="numberSigned"
+            android:maxLength="2"
+            android:layout_margin="1dp"
+            android:ems="10"
+            android:importantForAutofill="no"
+            tools:ignore="LabelFor"/>
+
+        <EditText
+            android:id="@+id/et_sim_fourth_input_queue"
+            android:layout_width="35dp"
+            android:layout_height="45dp"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:background="@drawable/sim_input_border_bg"
+            android:inputType="numberSigned"
+            android:maxLength="2"
+            android:layout_margin="1dp"
+            android:ems="10"
+            android:importantForAutofill="no"
+            tools:ignore="LabelFor"/>
+
+        <EditText
+            android:id="@+id/et_sim_fifth_input_queue"
+            android:layout_width="35dp"
+            android:layout_height="45dp"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:background="@drawable/sim_input_border_bg"
+            android:inputType="numberSigned"
+            android:maxLength="2"
+            android:layout_margin="1dp"
+            android:ems="10"
+            android:importantForAutofill="no"
+            tools:ignore="LabelFor"/>
+
+
+        <EditText
+            android:id="@+id/et_sim_sixth_input_queue"
+            android:layout_width="35dp"
+            android:layout_height="45dp"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:background="@drawable/sim_input_border_bg"
+            android:inputType="numberSigned"
+            android:maxLength="2"
+            android:layout_margin="1dp"
+            android:ems="10"
+            android:importantForAutofill="no"
+            tools:ignore="LabelFor"/>
+
+        <EditText
+            android:id="@+id/et_sim_seventh_input_queue"
+            android:layout_width="35dp"
+            android:layout_height="45dp"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:background="@drawable/sim_input_border_bg"
+            android:inputType="numberSigned"
+            android:maxLength="2"
+            android:layout_margin="1dp"
+            android:ems="10"
+            android:importantForAutofill="no"
+            tools:ignore="LabelFor"/>
+
+
+
+
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/et_number_to_push_queue"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/sim_input_border_bg"
+        android:ems="10"
+        android:gravity="center"
+        android:importantForAutofill="no"
+        android:inputType="numberSigned"
+        android:maxLength="2"
+        android:textSize="20sp"
+        tools:ignore="LabelFor" />
+
+    <Button
+        android:id="@+id/btnGenerateNumberQueue"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/colorPrimary"
+        android:text="@string/generate_random_number_string"
+        android:background="@color/white"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/default_option_border_bg"
+        android:layout_margin="10dp"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnEnqueue"
+            android:layout_width="75dp"
+            android:layout_height="50dp"
+            android:layout_margin="6dp"
+            android:textColor="@color/colorPrimary"
+            android:text="@string/enqueue_string"
+            android:background="@color/white"/>
+
+        <Button
+            android:id="@+id/btnPeek_queue"
+            android:layout_width="75dp"
+            android:layout_height="50dp"
+            android:layout_margin="6dp"
+            android:textColor="@color/colorPrimary"
+            android:text="@string/peek_string"
+            android:background="@color/white"/>
+
+        <Button
+            android:id="@+id/btnDequeue"
+            android:layout_width="75dp"
+            android:layout_height="50dp"
+            android:layout_margin="6dp"
+            android:textColor="@color/colorPrimary"
+            android:text="@string/dequeue_string"
+            android:background="@color/white"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/default_option_border_bg"
+        android:layout_margin="10dp"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/front_element_string"/>
+
+        <EditText
+            android:id="@+id/et_front_element"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:background="@drawable/sim_input_border_bg"
+            android:inputType="numberSigned"
+            android:maxLength="2"
+            android:layout_margin="1dp"
+            android:ems="10"
+            android:importantForAutofill="no"
+            tools:ignore="LabelFor"/>
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/et_empty_full_queue"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:background="@drawable/sorted_border_bg"
+        android:ems="10"
+        android:gravity="center"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:textSize="12sp"
+        tools:ignore="LabelFor" />
+
+</LinearLayout>

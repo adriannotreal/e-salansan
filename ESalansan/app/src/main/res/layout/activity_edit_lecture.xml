@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal"
+    android:background="@drawable/gradient1"
+    tools:context=".admin.EditLectureActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:text="@string/lecture_list"
+        android:textColor="@color/white"/>
+
+    <ListView
+        android:id="@+id/rvLectureList"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="1" />
+
+    <EditText
+        android:id="@+id/chapter_Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/chapter_title"
+        android:inputType="text"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:autofillHints=""
+        android:textColor="@color/white"
+        android:textSize="14sp"/>
+
+
+    <EditText
+        android:id="@+id/lessonTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/lesson_title"
+        android:inputType="text"
+        android:layout_marginHorizontal="10dp"
+        android:autofillHints=""
+        android:enabled="false"
+        android:textColor="@color/white"
+        android:textSize="14sp"/>
+
+    <EditText
+        android:id="@+id/etLectureAdd"
+        android:inputType="textMultiLine"
+        android:lines="8"
+        android:minLines="6"
+        android:gravity="top|start"
+        android:maxLines="10"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:scrollbars="vertical"
+        android:hint="@string/add_lecture_here"
+        android:autofillHints=""
+        android:textColor="@color/white"
+        android:textSize="14sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnUpdateLectureToDB"
+            android:layout_width="170dp"
+            android:layout_height="60dp"
+            android:text="@string/update_lecture"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"/>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/btnDeleteLectureToDB"
+            android:layout_width="170dp"
+            android:layout_height="60dp"
+            android:text="@string/delete_lecture"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"/>
+
+    </LinearLayout>
+
+</LinearLayout>

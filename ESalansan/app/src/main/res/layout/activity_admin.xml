@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal"
+    android:background="@drawable/gradient1"
+    tools:context=".AdminActivity">
+
+    <ImageView
+        android:id="@+id/logo_admin"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_margin="10dp"
+        android:contentDescription="@string/image_content_description"
+
+        android:src="@drawable/esalansan24"/>
+
+    <Button
+        android:id="@+id/btnAddLecture"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        android:text="Add Lecture"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/btnAddQuestion"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        android:text="Add Question"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/btnUpdateLecture"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        android:text="Update Lecture"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/btnUpdateQuestion"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        android:text="Update Question"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/btnLogOut"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        android:textColor="@color/colorPrimary"
+        android:text="Log-out"
+        android:textSize="20sp"/>
+
+
+
+
+</LinearLayout>

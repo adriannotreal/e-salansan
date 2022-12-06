@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".chapter3lectures.Chapter3Lecture2Activity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+        <TextView
+            android:id="@+id/Chapter3Lesson2Content1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:justificationMode="inter_word"
+            android:fontFamily="@font/cardo"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            tools:text="Content1"/>
+
+        <EditText
+            android:id="@+id/DataStructureOperationCreate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:fontFamily="@font/cardo"
+            android:textColor="#000000"
+            android:textSize="13sp"
+            android:background="@drawable/sim_input_border_bg"
+            android:inputType="textMultiLine"
+            tools:text="text"/>
+
+
+        <TextView
+            android:id="@+id/Chapter3Lesson2Content1B"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:justificationMode="inter_word"
+            android:fontFamily="@font/cardo"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            tools:text="Content1B"/>
+
+        <EditText
+            android:id="@+id/DataStructureOperationDestroy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:fontFamily="@font/cardo"
+            android:textColor="#000000"
+            android:textSize="13sp"
+            android:background="@drawable/sim_input_border_bg"
+            android:inputType="textMultiLine"
+            tools:text="text"/>
+
+
+
+        <TextView
+            android:id="@+id/Chapter3Lesson2Content2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:justificationMode="inter_word"
+            android:fontFamily="@font/cardo"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            tools:text="Content2"/>
+
+        <EditText
+            android:id="@+id/DataStructureOperationSelection"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:fontFamily="@font/cardo"
+            android:textColor="#000000"
+            android:textSize="13sp"
+            android:background="@drawable/sim_input_border_bg"
+            android:inputType="textMultiLine"
+            tools:text="text"/>
+
+        <TextView
+            android:id="@+id/Chapter3Lesson2Content3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:justificationMode="inter_word"
+            android:fontFamily="@font/cardo"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            tools:text="Content3"/>
+
+        <EditText
+            android:id="@+id/DataStructureOperationUpdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:fontFamily="@font/cardo"
+            android:textColor="#000000"
+            android:textSize="13sp"
+            android:background="@drawable/sim_input_border_bg"
+            android:inputType="textMultiLine"
+            tools:text="text"/>
+
+        <TextView
+            android:id="@+id/Chapter3Lesson2Content4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:justificationMode="inter_word"
+            android:fontFamily="@font/cardo"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            tools:text="Content4"/>
+
+        <EditText
+            android:id="@+id/DataStructureOperationSearching"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:fontFamily="@font/cardo"
+            android:textColor="#000000"
+            android:textSize="13sp"
+            android:background="@drawable/sim_input_border_bg"
+            android:inputType="textMultiLine"
+            tools:text="text"/>
+
+        <TextView
+            android:id="@+id/Chapter3Lesson2Content5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:justificationMode="inter_word"
+            android:fontFamily="@font/cardo"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            tools:text="Content4"/>
+
+        <EditText
+            android:id="@+id/DataStructureOperationSorting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:fontFamily="@font/cardo"
+            android:textColor="#000000"
+            android:textSize="13sp"
+            android:background="@drawable/sim_input_border_bg"
+            android:inputType="textMultiLine"
+            tools:text="text"/>
+
+        <TextView
+            android:id="@+id/Chapter3Lesson2Content6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:justificationMode="inter_word"
+            android:fontFamily="@font/cardo"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            tools:text="Content4"/>
+
+        <EditText
+            android:id="@+id/DataStructureOperationMerging"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:fontFamily="@font/cardo"
+            android:textColor="#000000"
+            android:textSize="13sp"
+            android:background="@drawable/sim_input_border_bg"
+            android:inputType="textMultiLine"
+            tools:text="text"/>
+
+        <TextView
+            android:id="@+id/Chapter3Lesson2Content7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:justificationMode="inter_word"
+            android:fontFamily="@font/cardo"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            tools:text="Content4"/>
+
+        <EditText
+            android:id="@+id/DataStructureOperationSplitting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:fontFamily="@font/cardo"
+            android:textColor="#000000"
+            android:textSize="13sp"
+            android:background="@drawable/sim_input_border_bg"
+            android:inputType="textMultiLine"
+            tools:text="text"/>
+
+        <TextView
+            android:id="@+id/Chapter3Lesson2Content8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:justificationMode="inter_word"
+            android:fontFamily="@font/cardo"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            tools:text="Content4"/>
+
+        <EditText
+            android:id="@+id/DataStructureOperationTraversing"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:fontFamily="@font/cardo"
+            android:textColor="#000000"
+            android:textSize="13sp"
+            android:background="@drawable/sim_input_border_bg"
+            android:inputType="textMultiLine"
+            tools:text="text"/>
+
+
+
+    </LinearLayout>
+
+</ScrollView>
